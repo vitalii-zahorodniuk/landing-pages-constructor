@@ -1,0 +1,37 @@
+{
+  "cloaking": {
+    "enabled": true,
+    "enabledChecks": {
+      "UACheck": true,
+      "IPCheck": true,
+      "vpnapi": true
+    }
+  },
+  "pages": {
+    "white": {
+      "html": "./landings/white/index.html",
+      "title": "White Page",
+      "description": "Description for white page"
+    },
+    "black": {
+      "html": "./landings/black/index.html",
+      "title": "Black Page",
+      "description": "Description for black page"
+    }
+  },
+  "pwa": {
+    "manifest": {
+      "name": "Landing PWA",
+      "short_name": "PWA",
+      "start_url": "/",
+      "display": "standalone",
+      "background_color": "#ffffff",
+      "theme_color": "#000000"
+    }
+  },
+  "rateLimit": {
+    "enabled": true,
+    "limit": 100,
+    "duration": 60
+  }
+}
